@@ -184,6 +184,26 @@ Solutions:
 
 ---
 
+## Results
+
+### 1. Mask Generation using YOLOv8
+Generated binary masks from YOLOv8 instance segmentation.
+![Mask Generation](images/mask_generation.png)
+
+### 2. Mask Overlay
+Overlay of segmentation mask on original image.
+![Mask Overlay](images/mask_overlay.png)
+
+### 3. Baseline U-Net Output
+Initial segmentation results using vanilla U-Net.
+![Baseline Output](images/baseline_output.png)
+
+### 4. Improved U-Net Output
+Improved segmentation using ResNet34 encoder and augmentation.
+![Improved Output](images/improved_output.png)
+
+---
+
 ## Key Takeaway
 
 Developed a complete segmentation pipeline and improved IoU from 0.586 to 0.803 using transfer learning, augmentation, and improved loss design.
